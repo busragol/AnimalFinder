@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animalfinder"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_play_circle_outline_black_24dp"
+        android:background="@color/colorBack"
+        android:layout_marginTop="20dp"/>
+    <ImageButton
+        android:id="@+id/best_points_button"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_star_border_black_24dp"
+        android:background="@color/colorBack"/>
+
+</LinearLayout>
